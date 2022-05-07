@@ -1,0 +1,28 @@
+{
+  "name": "dw-website",
+  "private": true,
+  "description": "The personal and somewhat professional website for David Wesst, a.k.a. DW, a.k.a. Wessty.",
+  "version": "8.0.0-alpha",
+  "author": "David Wesst <david@cocobokostudios.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@types/node": "^17.0.12",
+    "typescript": "^4.6.4"
+  },
+  "homepage": "https://github.com/davidwesst/website#readme",
+  "keywords": [
+    "davidwesst",
+    "blog",
+    "wessty"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwesst/website.git"
+  },
+  "scripts": {
+    "build": "eleventy --input src/",
+    "dev": "eleventy --serve"
+  }
+}
