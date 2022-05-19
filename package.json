@@ -21,8 +21,10 @@
     "type": "git",
     "url": "git+https://github.com/davidwesst/website.git"
   },
+  "packageManager": "yarn@1.22.18",
   "scripts": {
+    "clean": "rm -r ./_site",
     "build": "eleventy --input src/",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve --config=.eleventy.js --input src/"
   }
 }
